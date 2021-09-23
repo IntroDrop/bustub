@@ -14,16 +14,28 @@
 
 namespace bustub {
 
-ClockReplacer::ClockReplacer(size_t num_pages) {}
+ClockReplacer::ClockReplacer(size_t num_pages) {
+  // TODO(student): implement me!
+}
 
 ClockReplacer::~ClockReplacer() = default;
 
-bool ClockReplacer::Victim(frame_id_t *frame_id) { return false; }
+bool ClockReplacer::Victim(frame_id_t *frame_id) {
+  // TODO(student): implement me!
+  return false;
+}
 
-void ClockReplacer::Pin(frame_id_t frame_id) {}
+void ClockReplacer::Pin(frame_id_t frame_id) {
+  // TODO(student): implement me!
+}
 
-void ClockReplacer::Unpin(frame_id_t frame_id) {}
+void ClockReplacer::Unpin(frame_id_t frame_id) {
+  // TODO(student): implement me!
+}
 
-size_t ClockReplacer::Size() { return 0; }
+size_t ClockReplacer::Size() {
+  // TODO(student): implement me!
+  return 0;
+}
 
 }  // namespace bustub
