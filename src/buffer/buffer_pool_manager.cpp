@@ -3,9 +3,14 @@
 //
 
 #include "buffer/buffer_pool_manager.h"
+#include "a"
 
 namespace bustub {
   BufferPoolManager::BufferPoolManager();
 
   // todo
+
+  void init(){
+
+  }
 }
